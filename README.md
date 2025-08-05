@@ -1,37 +1,42 @@
-# To create a new project you would need this command
+# ProductApplication
+
+## Project Setup
+
+To create a new ASP.NET Core Web API project, use the following command:
 
 ```bash
 dotnet new webapi -o ProductApplication
 ```
 
-# no need for the libraries for this week's task just focus on the web api part and linq
+> **Note:** For this week's task, focus only on the Web API and LINQ. No additional libraries or EF Core are required.
 
-# This week’s task would consist of the following:
+## Task Overview
 
-# A Model for an entity called Product that would consist of
+Build a simple Web API with the following requirements:
 
-# id
+### Product Model
 
-# name
+Create a `Product` entity with these properties:
 
-# description
+- `id`
+- `name`
+- `description`
+- `price`
 
-# price
+### Mock Data
 
-# We would create mock data based on the way we did in the lecture.
+Generate mock data for products, similar to the approach used in the lecture.
 
-# Three services for the below endpoints to function
+### Services & Endpoints
 
-# Three endpoints
+Implement three endpoints:
 
-# 1- Get all the products in the object
+1. **Get all products**
+2. **Get a product by ID**
+3. **Get products ordered by price**
 
-# 2- Get one product based on the ID
+Structure your files as demonstrated in the lecture.
 
-# 3- Get the products ordered by price
+---
 
-# The file structure would be based on the one we did in the lecture, and no need to go into EF Core in this task, as it will be for next week.
-
-# Learning is taking initiative. One drop could fill a bucket for some, and others need a waterfall to fill it, yet one drop is better than none.
-
-# Good luck, and I wish you all the best.
+> **Learning is taking initiative. One drop could fill a bucket for some, and others need a waterfall to fill it. Yet one drop is better than none.**
